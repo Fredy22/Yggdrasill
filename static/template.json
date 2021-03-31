@@ -1,0 +1,12 @@
+{
+  "Actor": {
+    "types": ["PJ"],
+    "templates": {
+      "base": {
+      }
+    },
+    "PJ": {
+      "templates": ["base"]
+    }
+  }
+}
