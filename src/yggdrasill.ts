@@ -7,7 +7,7 @@ import YGGActor from './module/actor/actor'
 require('./styles/yggdrasill.scss')
 
 Hooks.once('init', async () => {
-  console.log('ArM5 | Initializing System')
+  console.log('Yggdrasill | Initializing System')
   CONFIG.ARM5 = YGGCONFIG
 
   // Assign actor/item classes.

@@ -2,7 +2,7 @@
   "private": true,
   "name": "vttfoundry-yggdrasill",
   "version": "1.8.0",
-  "description": "",
+  "description": "System Foundry VTT for Yggdrasill RPG",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack",

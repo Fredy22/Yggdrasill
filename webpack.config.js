@@ -66,7 +66,7 @@ module.exports = (env, argv) => {
         }),
         new WriteFilePlugin(),
         new MiniCssExtractPlugin({
-          filename: 'styles/arm5.css'
+          filename: 'styles/yggdrasill.css'
         }),
         new ProgressBarPlugin()
     ],
