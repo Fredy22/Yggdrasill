@@ -1,4 +1,4 @@
-import {CONFIG as YGG} from '../../../scripts/config'
+import { CONFIG as YGG } from '../../../scripts/config';
 
 /**
  * Extend the basic ActorSheet class to do all the PF2e things!
@@ -6,11 +6,11 @@ import {CONFIG as YGG} from '../../../scripts/config'
  * @category Actor
  * @extends {ActorSheet}
  */
- export default abstract class ActorSheetYgg extends ActorSheet {
-  private _filters: {}
-  editMode: any
+export abstract class ActorSheetYgg extends ActorSheet {
+  private _filters: {};
+  editMode: any;
 
   constructor(...args) {
-    super(...args)
+    super(...args);
   }
 }

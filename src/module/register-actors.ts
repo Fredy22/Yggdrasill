@@ -1,6 +1,6 @@
-import ActorSheetPJ from './actor/sheet/pj'
+import { ActorSheetPJ } from './actor/sheet/pj';
 
-function registerActors() {
+export function registerActors() {
   Actors.unregisterSheet('core', ActorSheet);
 
   // Register PJ Sheet
@@ -8,7 +8,4 @@ function registerActors() {
     types: ['PJ'],
     makeDefault: true,
   });
-
 }
-
-export default registerActors;
