@@ -1,10 +1,9 @@
 /**
  * @format
  */
- export default function () {
+export default function () {
   const templatePaths = [
     // Actor Sheets Partials
-
   ];
   return loadTemplates(templatePaths);
 }

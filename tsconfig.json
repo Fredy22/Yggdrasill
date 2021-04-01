@@ -11,8 +11,17 @@
     "removeComments": false,
     "resolveJsonModule": true,
     "paths": {
+      "@actor/*": ["src/module/actor/*"],
+      "@module/*": ["src/module/*"],
+      "@scripts/*": ["src/scripts/*"],
       "foundry": ["types/foundry-pc-types"]
     },
-    "types": ["webpack-env", "jest"]
+    "types": [
+      "jest",
+      "node",
+      "webpack-env",
+      "foundry-pc-types"
+    ],
+    "typeRoots": ["node_modules/@types", "types"]
   },
 }
