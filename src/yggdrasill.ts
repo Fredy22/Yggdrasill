@@ -8,7 +8,7 @@ require('./styles/yggdrasill.scss')
 
 Hooks.once('init', async () => {
   console.log('Yggdrasill | Initializing System')
-  CONFIG.ARM5 = YGGCONFIG
+  CONFIG.YGG = YGGCONFIG
 
   // Assign actor/item classes.
   CONFIG.Actor.entityClass = YGGActor

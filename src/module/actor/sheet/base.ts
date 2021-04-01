@@ -6,7 +6,7 @@ import {CONFIG as YGG} from '../../../scripts/config'
  * @category Actor
  * @extends {ActorSheet}
  */
- export default abstract class ActorSheetArM5 extends ActorSheet {
+ export default abstract class ActorSheetYgg extends ActorSheet {
   private _filters: {}
   editMode: any
 

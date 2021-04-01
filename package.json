@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "vttfoundry-yggdrasill",
-  "version": "1.8.0",
+  "version": "0.1.0",
   "description": "System Foundry VTT for Yggdrasill RPG",
   "scripts": {
     "build": "webpack --mode production",
@@ -11,7 +11,7 @@
     "lint:fix": "eslint ./src --ext .ts --fix"
   },
   "author": "Fredy22",
-  "license": "",
+  "license": "GPL 3",
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "@types/webpack-env": "^1.16.0",
