@@ -1,12 +1,255 @@
 {
   "Actor": {
-    "types": ["PJ"],
+    "types": ["character"],
     "templates": {
-      "base": {
-      }
+      "common": {
+        "name": "",
+        "archetype": "",
+        "profession": "",
+        "kingdom": "",
+        "characteristics": {
+          "pui": 0,
+          "vig": 0,
+          "agi": 0,
+          "int": 0,
+          "ten": 0,
+          "per": 0,
+          "cha": 0,
+          "ins": 0,
+          "com": 0
+        },
+        "furor": {
+          "current": 0,
+          "base": 0
+        },
+        "pv": {
+          "current": 0,
+          "base": 0
+        },
+        "rea": {
+          "base": 0,
+          "enc": 0,
+          "mag": 0,
+          "total": 0
+        },
+        "dph": {
+          "base": 0,
+          "enc": 0,
+          "pro": 0,
+          "mag": 0,
+          "total": 0
+        },
+        "dme": {
+          "base": 0,
+          "mag": 0,
+          "total": 0
+        },
+        "dep": 0,
+        "cpe": 0,
+        "enc": 0
+      },
+      "skills":{
+        "acro": {
+          "value": 0
+        },
+        "arti": {
+          "detail": "",
+          "value": 0
+        },
+        "arts": {
+          "detail": "",
+          "value": 0
+        },
+        "atte": {
+          "value": 0
+        },
+        "cher": {
+          "value": 0
+        },
+        "chev": {
+          "value": 0
+        },
+        "comm": {
+          "value": 0
+        },
+        "disc": {
+          "value": 0
+        },
+        "eloq": {
+          "value": 0
+        },
+        "empa": {
+          "value": 0
+        },
+        "esca": {
+          "value": 0
+        },
+        "esqui": {
+          "value": 0
+        },
+        "herb": {
+          "value": 0
+        },
+        "inti": {
+          "value": 0
+        },
+        "jeux": {
+          "value": 0
+        },
+        "lang": {
+          "detail": "",
+          "value": 0
+        },
+        "larc": {
+          "value": 0
+        },
+        "mede": {
+          "value": 0
+        },
+        "mouv": {
+          "value": 0
+        },
+        "navi": {
+          "value": 0
+        },
+        "nego": {
+          "value": 0
+        },
+        "saga": {
+          "value": 0
+        },
+        "savo": {
+          "detail": "",
+          "value": 0
+        },
+        "sedu": {
+          "value": 0
+        },
+        "supe": {
+          "value": 0
+        },
+        "surv": {
+          "value": 0
+        },
+        "tact": {
+          "value": 0
+        },
+        "trad": {
+          "value": 0
+        },
+        "vigi": {
+          "value": 0
+        },
+        "gald": {
+          "value": 0
+        },
+        "rune": {
+          "value": 0
+        },
+        "sejd": {
+          "value": 0
+        },
+        "cour": {
+          "value": 0
+        },
+        "long": {
+          "value": 0
+        },
+        "2mai": {
+          "value": 0
+        },
+        "hast": {
+          "value": 0
+        },
+        "tir": {
+          "value": 0
+        },
+        "lanc": {
+          "value": 0
+        },
+        "lutt": {
+          "value": 0
+        },
+        "impr": {
+          "value": 0
+        },
+        "opt1": {
+          "name": "",
+          "value": 0
+        },
+        "opt2": {
+          "name": "",
+          "value": 0
+        }
+      },
+      "armes": {
+        "arm1": {
+          "name": "",
+          "niv": 0,
+          "deg": 0,
+          "sol": {
+            "current": 0,
+            "base": 0
+          },
+          "pc": 0,
+          "pm": 0,
+          "pl": 0,
+          "pe": 0,
+          "prou": ""
+        },
+        "arm2": {
+          "name": "",
+          "niv": 0,
+          "deg": 0,
+          "sol": {
+            "current": 0,
+            "base": 0
+          },
+          "pc": 0,
+          "pm": 0,
+          "pl": 0,
+          "pe": 0,
+          "prou": ""
+        },
+        "arm3": {
+          "name": "",
+          "niv": 0,
+          "deg": 0,
+          "sol": {
+            "current": 0,
+            "base": 0
+          },
+          "pc": 0,
+          "pm": 0,
+          "pl": 0,
+          "pe": 0,
+          "prou": ""
+        }
+      },
+      "histo": "",
+      "don1": "",
+      "don2": "",
+      "faib": "",
+      "prouesses": {
+        "prou1": {
+          "nom": "",
+          "niv": 0,
+          "eff": ""
+        },
+        "prou2": {
+          "nom": "",
+          "niv": 0,
+          "eff": ""
+        }
+      },
+      "schema": {
+        "version": {
+            "value": ""
+        }
+      }      
     },
-    "PJ": {
-      "templates": ["base"]
+    "character": {
+      "templates": ["common"]
     }
   }
 }

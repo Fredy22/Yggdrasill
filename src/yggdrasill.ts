@@ -36,7 +36,12 @@ Hooks.once('ready', () => {
   // Perform the migration
   if (needMigration && game.user.isGM) {
     if (currentVersion && currentVersion < COMPATIBLE_MIGRATION_VERSION) {
-      ui.notifications.error(`Your Yggdrasill system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur.`, {permanent: true});
+      ui.notifications.error(
+        `Your Yggdrasill system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur.`,
+        {
+          permanent: true,
+        },
+      );
     }
     // migrations.migrateWorld()
   }
